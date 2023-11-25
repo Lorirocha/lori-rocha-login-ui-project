@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+        margin: 0;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.5rem;
         line-height: 2;
@@ -24,21 +24,62 @@ body{
 
 }
 
+
 .login-card{
-    height: 80px;
-    width: 200px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 10px;
     
+    min-height: 210px;
+    width: 320px;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(140, 88, 140);
+    box-sizing: border-box;
+
+
 }
 
-.form-button{
-    background: #ca69e7;
-    border: 1px solid #ddd;
-    color: #ffffff;
-    padding: 15px;
-    width: 100%;
-    text-transform: uppercase;
-}
-.form-button:hover{
-    background: #31103e;
+
+
+.login-card > input{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 5px;
 }
 
+
+#username{
+ 
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+#password{
+  
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+.button1 {
+    height: 30px;
+    width: 100px;
+    background-color: #86477a; 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #86477a;
+  }
+
+.button1:hover {
+    height: 30px;
+    width: 100px;
+    background-color: #5b3359;
+    color: rgb(255, 255, 255);
+  }
